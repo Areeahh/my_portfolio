@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Areeha | Frontend Developer</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css" class="css">
+</head>
+<body>
+  <!-- Hero -->
+  <header id="hero" class="section hero">
+    <div class="container" style="display: flex; align-items: center; height: 100%;">
+      <div class="hero-content">
+        <h1 class="name">Hi , I'm Areeha</h1>
+        <p class="subtitle">Frontend Developer — Landing pages, responsive UI, marketing pages, UI/UX polishing, Bootstrap dashboards</p>
+        <div class="cta-group">
+          <a class="btn" href="#contact">Hire me on Fiverr</a>
+          <a class="ghost-btn" href="https://github.com/your-username" target="_blank" rel="noreferrer">GitHub</a>
+        </div>
+        <p class="hero-note">Bachelors in Computer Science, University of Gujrat (UOG), Pakistan · Remote-friendly</p>
+      </div>
+      <div class="hero-image"></div>
+    </div>
+  </header>
+
+  <!-- About -->
+  <section id="about" class="section about">
+    <div class="container">
+      <h2>About Me</h2>
+      <p class="lead">
+        Hi, I'm Areeha, a frontend developer passionate about crafting fast, accessible, and visually striking web experiences. I began programming with C++, and that foundation in logic and problem-solving informs my approach to planning, coding, and polishing UI.
+        I design and implement responsive frontends for landing pages, marketing sites, dashboards, and more—worldwide.
+      </p>
+      <ul class="bullets">
+        <li>HTML, CSS, JavaScript</li>
+        <li>Bootstrap-based UI and dashboards</li>
+        <li>Responsive, accessible design</li>
+        <li>Performance-minded coding</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Services / Gigs -->
+  <section id="services" class="section services">
+    <div class="container">
+      <h2>Services</h2>
+      <div class="grid three">
+        <div class="card service">
+          <div class="icon" aria-hidden="true">🧭</div>
+          <h3>Landing Page Design</h3>
+          <p>Conversion-focused, fast, and responsive landing pages.</p>
+        </div>
+        <div class="card service">
+          <div class="icon" aria-hidden="true">📱</div>
+          <h3>Responsive UI Implementation</h3>
+          <p>Pixel-perfect UI that works across devices and breakpoints.</p>
+        </div>
+        <div class="card service">
+          <div class="icon" aria-hidden="true">📈</div>
+          <h3>Marketing Page Development</h3>
+          <p>Campaign pages crafted to boost engagement and actions.</p>
+        </div>
+        <div class="card service">
+          <div class="icon" aria-hidden="true">🎨</div>
+          <h3>UI/UX Polishing</h3>
+          <p>Micro-interactions, accessibility fixes, and polish.</p>
+        </div>
+        <div class="card service">
+          <div class="icon" aria-hidden="true">🗂️</div>
+          <h3>Bootstrap Dashboards</h3>
+          <p>Clean, data-driven dashboards with responsive layouts.</p>
+        </div>
+        <div class="card service">
+          <div class="icon" aria-hidden="true">⚡</div>
+          <h3>Performance & Accessibility</h3>
+          <p>Fast, accessible frontends built with best practices.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Process -->
+  <section id="process" class="section process">
+    <div class="container">
+      <h2>Process</h2>
+      <ol class="steps">
+        <li><strong>Plan:</strong> Define goals, constraints, and success metrics.</li>
+        <li><strong>Design:</strong> Create wireframes and visuals, iterate with feedback.</li>
+        <li><strong>Implement:</strong> Build with clean, accessible code.</li>
+        <li><strong>Test & Deliver:</strong> QA, accessibility checks, and hand-off.</li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="section contact">
+    <div class="container">
+      <h2>Contact</h2>
+      <p class="lead">Ready to discuss your project? Reach out and I'll respond quickly.</p>
+      <form id="contact-form" action="https://formspree.io/f/your-form-id" method="POST">
+        <div class="grid two">
+          <input type="text" name="name" placeholder="Your name" required />
+          <input type="email" name="_replyto" placeholder="Email" required />
+        </div>
+        <input type="text" name="subject" placeholder="Subject" required />
+        <textarea name="message" rows="5" placeholder="Tell me about your project" required></textarea>
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+      <p class="note">Or contact via email: youremail@example.com</p>
+    </div>
+  </section>
+
+  <footer class="section footer">
+    <div class="container">
+      <p>© <span id="year"></span> Areeha. Remote-friendly • Open to worldwide clients.</p>
+    </div>
+  </footer>
+
+  <script>
+    // Set current year in footer
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
